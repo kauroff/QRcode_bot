@@ -21,4 +21,5 @@ def message_reply(message):
     file = open('qr.png', 'rb')
     bot.send_photo(message.chat.id, file, "Вот твой QR-код!")
 
+
 bot.infinity_polling()
